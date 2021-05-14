@@ -1,0 +1,474 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+header {
+  	display: flex;
+  	justify-content: space-between;
+ 	align-items: center;
+  	margin: 20px 40px;
+}
+nav {
+	display: flex;
+}
+.nav-menu{
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding: 0 15px;
+}
+.nav-menu li{
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	padding: 0 15px;
+	list-style: none;
+	display: inline;
+}
+a{
+	text-decoration: none;
+  	color: black;
+}
+.sign-in{
+	display:flex;
+	float: right;
+
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 30px;
+
+	width: 106px;
+	height: 43px;
+
+	background: transparent;
+	border: 1px solid rgba(27, 27, 27, 0.4);
+	box-sizing: border-box;
+	border-radius: 6px;
+
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+}
+body {
+	margin: 0;
+}
+footer{
+	height: 124px;
+	background: #3F3D56;
+}
+footer p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+    margin-left: 40px;
+  	float: left;
+  	top: 30%;
+  	position: relative;
+
+  	color: #FFFFFF;
+  	opacity: 0.4;
+}
+footer a{
+	margin-right: 15px;
+    float: right;
+    overflow: hidden;
+    top: 35%;
+    position: relative;
+}
+
+/*-----------------------------*/
+/*--------Модуль 18------------*/
+/*-----------------------------*/
+
+/* Секция "О нас" */
+h1{
+	font-family: Roboto;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 77px;
+	letter-spacing: 0em;
+}
+#About_Us{
+	margin: 40px 0;
+}
+#About_Us p{
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#About_Us img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Секция "Контакты" */
+h2 {
+	font-family: Roboto;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 58px;
+	letter-spacing: 0em;
+}
+#Contacts{
+	background: #F7F9FB;
+	padding: 10px 0 50px;
+}
+#Contacts p{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#Contacts a{
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.contact{
+	justify-content: center;
+    display: flex;
+}
+.address{
+	margin: 0 69px;
+	width: 205px;
+	height: 80px;
+	text-align: center;
+}
+.lin {
+	width: 1px;
+	height: auto;
+	background: #C8C8CF;
+}
+/* Секция "Клманда" */
+#Team {
+	margin-bottom: 120px;
+    /* height: 720px; */
+    position: relative;
+}
+.teams{
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	grid-template-rows: repeat(2, 350px);
+	justify-content: center;
+    align-items: center;
+}
+.person{
+	height: 270px;
+    width: 180px;
+    margin: 30px 20%;
+}
+.person:first-child{
+	grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.person:nth-child(2){
+	grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.person:nth-child(3){
+	grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.person:nth-child(4){
+	grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.person:nth-child(5){
+	grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.person:last-child{
+	grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.person p:first-of-type {
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.person p:nth-of-type(2) {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #828282;
+}
+/*-----------Моб версия-----------*/
+@media screen and (max-width: 600px) {
+  	#About_Us h1 {
+    	font-size: 32px;
+  	}
+  	h2 {
+  		font-size: 24px;
+  	}
+  	#About_Us p{
+    	font-size: 14px;
+  	}
+  	#About_Us img{
+  		height: 200px;
+  		width: 260px;
+  	}
+  	.contact {
+  		display: flex;
+    	flex-direction: column;
+  		justify-content: center;
+  	}
+  	.address {
+  		margin: 0 auto;
+  	}
+  	.address a{
+  		font-size: 14px !important;
+  	}
+  	.lin{
+  		visibility: hidden;
+  	}
+  	.teams{
+	    display: grid;
+	    grid-template-columns: repeat(1, 160px) !important;
+	    justify-content: center;
+	    grid-template-rows: repeat(3, 160px) !important;
+	    align-items: center;
+	    grid-gap: 30px 20px;
+	    grid-template-areas:
+	        "a b"
+	        "c d"
+	        "e f";
+	    /*padding: 20px 0 0;*/
+	}
+	.person img {
+		height: 80px;
+		width: 80px;
+		margin: 0 35px;
+	}
+	.person p{
+		font-size: 14px !important;
+	}
+	.person{
+		width: 150px;
+		height: 160px;
+	}
+  	.person:first-child{
+		grid-area: a;
+	}
+	.person:nth-child(2){
+		grid-area: b;
+	}
+	.person:nth-child(3){
+		grid-area: c;
+	}
+	.person:nth-child(4){
+		grid-area: d;
+	}
+	.person:nth-child(5){
+		grid-area: e;
+	}
+	.person:last-child{
+		grid-area: f;
+	}
+}
+
+/*-----------------------------*/
+/*--------Модуль 19------------*/
+/*-----------------------------*/
+
+#FAQ img {
+	display: block;
+	margin: 80px auto 0;
+}
+#FAQ p {
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+#questions {
+	width: 1000px;
+    margin: 50px auto 120px;
+}
+#questions p{
+	font-size: 20px !important;
+	text-align: left !important;
+}
+.collapsible {
+  background-color: #F7F7F8;
+  color: #1B1B1B;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.collapsible:hover {
+  background-color: rgba(97, 161, 153, 0.1);
+}
+.collapsible.active .collapsible:hover{
+  background-color: rgba(97, 161, 153, 0.15);
+  color: #61A199;
+}
+.collapsible:after {
+  content: "\005E";	/* стрелка вверх */
+  color: #A0A7AD; 
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible.active:after {
+  content: "\02C5";	/* стрелка вниз */
+  color: #61A199;
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+  border-radius: 5px;
+}
+/*-----------Моб версия-----------*/
+@media screen and (max-width: 600px) {
+  header{
+  	margin: 15px;
+    height: 50px;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav{
+  	display: flex;
+  	flex-direction: column;
+  	visibility: hidden;
+  }
+  .nav-menu li{
+  	font-size: 14px;
+  	display: flex;
+  }
+  #burger1{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+  }
+  #burger2{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+    position: absolute;
+    right: 15px;
+    top: 24px;
+  }
+  #burger3{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+    position: absolute;
+    right: 15px;
+    top: 32px;
+  }
+  h1 {
+  	align: center;
+    font-size: 32px;
+  }
+  #FAQ img {
+	display: block;
+	margin: 40px auto 0;
+	height: 200px;
+	width: 240px;
+  }
+  #FAQ p{
+  	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+  }
+  #questions {
+	width: 320px;
+    margin: 20px auto;
+  }
+  #questions p{
+	font-family: Roboto;
+	font-size: 14px !important;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+  }
+  .collapsible {
+    background-color: #F7F7F8;
+    color: #1B1B1B;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  footer p{
+  	top: 15%;
+  	margin-left: 20px;
+  }
+  footer a{
+  	top: 55%;
+  	left: -150px;
+  	float: left;
+  }
+}

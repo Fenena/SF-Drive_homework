@@ -1,0 +1,44 @@
+{
+  "name": "sf-drive_homework",
+  "version": "1.0.0",
+  "description": "Дз модуль 21",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style nested -o src/ src/",
+    "build": "webpack",
+    "dev": "parcel <your entry file>",
+    "parcel_build": "parcel build <your entry file>",
+    "lint": "npx eslint <yourfile.js>",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fenena/SF-Drive_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fenena/SF-Drive_homework/issues"
+  },
+  "homepage": "https://github.com/Fenena/SF-Drive_homework#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.23.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "stylelint": "^13.13.1",
+    "stylelint-webpack-plugin": "^2.1.1",
+    "terser-webpack-plugin": "^5.1.2",
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0"
+  }
+}
